@@ -325,7 +325,7 @@ function newClient() {
 
 		BASE_IP=$(echo "$SERVER_WG_IPV4" | awk -F '.' '{ print $1"."$2"."$3 }')
 		IPV4_EXISTS='0'
-		echo "Client WireGuard IPv4echo: ${BASE_IP}.${DOT_IP}"
+		echo "Client WireGuard IPv4echo: ${BASE_IP}.${DOT_IP} and eixst ${IPV4_EXISTS}"
 		
 		until [[ ${IPV4_EXISTS} == '0' ]]; do
 			read -rp "Client WireGuard IPv4: ${BASE_IP}." -e -i "${DOT_IP}" DOT_IP
