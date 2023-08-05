@@ -1,6 +1,6 @@
 # WireGuard installer
 
-![Lint](https://github.com/angristan/wireguard-install/workflows/Lint/badge.svg)
+[![Lint](https://github.com/cloud-hai-vo/wireguard-install/actions/workflows/lint.yml/badge.svg)](https://github.com/cloud-hai-vo/wireguard-install/actions/workflows/lint.yml)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/angristan)
 
 **This project is a bash script that aims to setup a [WireGuard](https://www.wireguard.com/) VPN on a Linux server, as easily as possible!**
